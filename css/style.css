@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(../img/car.jpg);
+}
+
+.container {
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    background: rgba(84, 84, 84,.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.start {
+    height: 85px;
+    width: 85px;
+    font-size: 34px;border: black solid 5px;
+    border-radius: 50px;
+    background-color: #290b06;
+    text-align: center;
+    line-height: 85px;
+}
+.start1 {
+     height: 95px;
+     width: 95px;
+     border: red solid 5px;
+     border-radius: 60px;
+     margin: 0 auto;
+     background-color: black;
+}
+.start2 {
+    cursor: pointer;
+    min-height: 105px;
+    width: 105px;
+    border: black solid 2px;
+    border-radius: 60px;
+    background-color: black;
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0000ff, 0 0 80px #0000ff;
+}
+.start h6{
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0000ff, 0 0 80px #0000ff;
+}
+.taho {
+    min-height: 100px;
+    width: 500px;
+    border: darkgrey 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0000ff, 0 0 80px #0000ff;
+}
+.taho-line {
+    height: 99px;
+    width: 0px;
+    background-color: chartreuse;
+    transition: 1s;
+}
+.treadle {
+    transform: perspective(205px) rotateX(0deg);
+    transition: all ease .5s;
+    width: 220px;
+    height: 300px;
+    background-image: url(../img/treadle.jpg);
+    background-size: 250%;
+    box-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 20px #000000;
+    cursor: pointer;
+}
+.push-treadle {
+    transform: perspective(205px) rotateX(14deg);
+    transition: all ease .5s;
+    box-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 20px #000000;
+}
